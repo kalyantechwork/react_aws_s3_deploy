@@ -12,7 +12,7 @@ const AddProduct = () => {
 
         try {
             const response = await axios.post(
-                "http://localhost:4000/demo/add-product",
+                "http://52.4.31.186/demo/add-product",
                 {
                     productname,
                     productprice: Number(productprice),
